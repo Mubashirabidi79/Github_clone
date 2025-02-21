@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    background-color:#474747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.signUpBox{
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;   /* this helps to give space of 20px from each side of every field or signup box nay 20px ki space har side sey chorh di*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.signUpBox form{
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    font-size: 14px;
+}
+h1{
+    text-align: center;
+    /* padding-top: 10px; */ /* it pushes the text towards the middle but we dont need it here*/
+    margin-bottom: 20px; /* pushed the h1 tag a bit towards top */
+    color: white;
+}
+.input_group01 , .input_group{
+    margin-bottom: 15px;
+}
+.input_group01 label , .input_group label{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;  /* because of this it was the label was having gap with the input fields */
+    /* padding-bottom: 10px; */
+
+}
+.input_group01 input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #858585;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+.input_group input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #858585;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+.input_group{
+    padding-top: 10px;
+}
+.input_group01 input:focus{
+    border-color: #5a67d8;
+}
+.box{
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */    
+    margin-top: 10px;
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.box label, input{
+    /* justify-content: space-between; */
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.agree{
+    display: flex;
+    /* padding-top: 10px; */
+}
+.button{
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    /* height: 30px; */
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    margin-bottom: 10px;  /*it provides gap between the*/ 
+    text-align: center;
+    transition: background-color 0.3s;
+    /*buttons*/
+    
+    /* display: flex; */
+    /* justify-content:space-between ; */
+    /* margin: 5px; */
+    /* align-items: center; */
+    /* margin-right: 5px; */
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.already_account{
+    margin-top: 10px ;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+.already_account a{
+    color: #5a67d8;
+    text-decoration: none;
+}
+.already_account a:hover{
+    text-decoration: underline;
+}
+.img_logo{
+    width: 180px;
+    height: 150px;
+    background-color: black;
+    margin-left: 25%;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    /* background-color: #121212; */
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid #333;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #555;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.stats div {
+    text-align: center;
+}
+.profile-link {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.profile-link:hover {
+    background-color: #555;
+}
