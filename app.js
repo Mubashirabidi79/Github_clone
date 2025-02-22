@@ -5,7 +5,7 @@ const input = document.querySelector('.input_box')
 
 form.addEventListener("submit", (event)=>{
   event.preventDefault()  
-  axios(`http://api.github.com/users/${input.value}`)
+  axios(`https://api.github.com/users/${input.value}`)
   .then((res)=>{
       console.log(res.data);
       div.innerHTML = `
